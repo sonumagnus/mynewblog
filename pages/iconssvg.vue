@@ -48,6 +48,7 @@ class="grid p-10 md:p-16 grid-cols-5 md:grid-cols-10 gap-8 text-3xl md:text-5xl 
 <i class="fal fa-envelope"></i>
 <i class="fad fa-phone-alt"></i>
 <i class="fab fa-facebook"></i>
+Sonu
 </div>
 </div>
 </template>
