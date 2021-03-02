@@ -3,7 +3,7 @@
     <h2 class="font-bold text-2xl text-gray-600">Latest Post</h2>
     <div class="articles">
       <div class="article" v-for="article of articles"  :key="article">
-        <nuxt-link :to="{ name: 'blog-slug', params: { slug: article.slug}}">
+        <nuxt-link :to="`/blog/${article.slug}`">
           <div class="article-inner">
             <img :src="require(`~/assets/resources/${article.img}`)" />
             <div class="detail">
